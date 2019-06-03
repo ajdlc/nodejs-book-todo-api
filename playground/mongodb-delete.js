@@ -11,12 +11,12 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
     console.log("Connected to MongoDB server");
 
     const db = client.db('TodoApp');
-    // Delete many example
+    // deleteMany() example
     // db.collection('Todos').deleteMany({text: "Eat lunch"}).then((result) => {
     //     console.log(result);
     // });
 
-    // deleteOne example
+    // deleteOne() example
     // db.collection('Todos').deleteOne({text: "Eat lunch"}).then((result) => {
     //     console.log(result);
     // });
